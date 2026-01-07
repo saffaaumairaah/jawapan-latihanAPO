@@ -1,0 +1,6 @@
+#Soalan 2 (Operasi aritmetik mudah)
+#Create a Python program that receives two numbers from the user and displays the sum of the two numbers.
+x = input("enter first number: ")
+y = input("enter second number: ")
+sum = int(x) + int(y)
+print("The sum is : ", sum)
