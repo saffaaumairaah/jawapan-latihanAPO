@@ -1,0 +1,8 @@
+#Soalan 7 (Penukaran unit)
+#Create a Python program that receives a temperature in Celsius and converts it to Fahrenheit.
+#Formula:
+#F = (C × 9/5) + 32
+celsius_input = input("Enter temperature in Celsius: ")
+celsius = float(celsius_input)
+fahrenheit = (celsius * 9/5) + 32
+print(f"\n{celsius:.2f} degrees Celsius is equal to {fahrenheit:.2f} degrees Fahrenheit.")
